@@ -1,0 +1,206 @@
+:root{
+    --darkblue: #1F2E35;
+    --green: #02897A;
+    --lightgray: #F6F6F6;
+    --textdark: #173A56;
+    --lighterbackground: #22343D;
+}
+
+li{
+    font-size: 18px;
+}
+
+#menu-button{
+    display: none;
+}
+/* FIRST CONTAINER - OUR CLIENTS */
+
+.first-window{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 69px;
+    margin-top: 118px;
+}
+
+.main-title{
+    font-size: 40px;
+}
+
+.clients-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+}
+
+.container-folder{
+    height: 498px;
+    background-color: var(--lighterbackground);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 136px;
+    margin-left: -145px;
+    margin-right: -145px;
+}
+
+.container-tasks{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    width: 350px;
+    height: 305px;
+    padding: 32px;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.task.task:hover{
+    width: 360px;
+    height: 315px;
+    margin: 0px 20px; 
+}
+
+/* ARTICLE - HOW PRODUCT WORKS */
+
+.work-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 101px;
+}
+
+.step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px;
+    gap: 100px;
+}
+
+#step-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.work-text{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    gap: 16px;
+}
+
+.work-button{
+    width: 224px;
+    height: 44px;
+    background-color: var(--green);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    font-family: "montserrat", sans-serif;
+}
+
+.work-button:hover{
+    width: 228px;
+    height: 48px;
+    background-color: white;
+    color: var(--textdark);
+    cursor: pointer;
+    font-style: bold;
+    margin-bottom: -4px ;
+}
+
+/* OFFERS-SECTION */
+
+.offers-title{
+    text-align: center ;
+}
+
+#offer-section{
+    height: 626px;
+    margin-top: 115px;
+}
+
+.offers-task{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top:93px;
+    padding: 0px 113.5px;
+    row-gap: 16px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:440px){
+    body{
+        margin: 5px 25px;
+    }
+    #nav-list{
+        display: none;
+    }
+    #menu-button{
+        display: flex;
+        align-items: center;   
+    }
+    .main-title{
+        font-size: 36px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .first-window{
+        margin-top: 50px;
+        row-gap: 38px;
+    }
+    .clients-logos{
+       display: block;
+       width: 50%;
+    }
+    .container-folder{
+        margin: 78px -25px;
+        height: 1162px;
+    }
+    .container-tasks, .step, #step-reverse{
+        margin-top: 25px;
+        flex-direction: column;
+    }
+    .task{
+        margin: 15px;
+    }
+    .work-title{
+        margin-bottom: 79px ;
+    }
+    .macbook{
+        width: 100%;
+    }
+    .work-text{
+        width: 100%;
+    }
+    #offer-section{
+        margin-top: 350px ;
+    }
+
+}
+

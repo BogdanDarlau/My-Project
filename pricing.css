@@ -1,0 +1,120 @@
+:root{
+    --darkblue: #1F2E35;
+    --green: #02897A;
+    --lightgray: #F6F6F6;
+    --textdark: #173A56;
+}
+
+.price-table{
+    margin-top: 55px;
+}
+
+.pricing-title{
+    font-size: 40px ;
+}
+
+.price-pockets{
+    margin-top: 49px;
+}
+.h3-style{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.large-p{
+    font-size: 18px;
+}
+
+span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.enterprice{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 100%;
+    height: 318px;
+    margin-top: 150px;
+    margin-left: -145px;
+    background-color:#22343D;
+    text-align: center;
+}
+
+.enterprice-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 224px ;
+    height: 44px;
+    border-radius: 8px;
+    margin-top: 16px;
+    background-color: var(--green);
+    color: white;
+}
+
+.enterprice-button:hover{
+    background-color: white;
+    color: var(--textdark);
+    width: 228px;
+    height: 48px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.first-article-title{
+    text-align: center;
+    margin-top: 650px;
+}
+
+.first-article{
+    margin-top: 53px;
+    flex-direction: row-reverse;
+}
+
+.three-elements{
+   margin-bottom: -20px;
+   gap: 10px;
+}
+
+.pillow{
+    margin-right: 20px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8px;
+}
+.questions{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 152px;
+    width: 920px;
+}
+
+.question-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+    margin-top: 30px;
+}
+.grey-line{
+    color: #474747;
+}
